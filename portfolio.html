@@ -15,42 +15,46 @@
   <body class="body">
     <!--шапка сайта-->
     <header class="page-header">
-      <nav>
+      <div class="container main-nav">
+      <nav class="nav">
         <a href="./index.html" class="logo"
           >Web<span class="logo-header">Studio</span></a
         >
         <ul class="site-nav-list">
-          <li><a class="nav-link" href="./index.html">Студія</a></li>
-          <li><a class="nav-link-carrent" href="">Портфоліо</a></li>
-          <li><a class="nav-link" href="">Контакти</a></li>
+          <li class="item"><a class="nav-link" href="./index.html">Студія</a></li>
+          <li class="item"><a class="nav-link-carrent" href="">Портфоліо</a></li>
+          <li class="item"><a class="nav-link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li>
+     
+      <ul class="auth-nav-list">
+        <li class="item">
           <a class="contakt-link" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="item">
           <a class="contakt-link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <h1 hidden class="visually-hidden">портфоліо</h1>
       <section class="filter">
+         <div class="container">
         <ul class="buttons">
-          <li><button class="filter-button" type="button">Усі</button></li>
-          <li>
+          <li class="item"><button class="filter-button" type="button">Усі</button></li>
+          <li class="item">
             <button class="filter-button" type="button">Веб-сайти</button>
           </li>
-          <li><button class="filter-button" type="button">Додатки</button></li>
-          <li><button class="filter-button" type="button">Дизайн</button></li>
-          <li>
+          <li class="item"><button class="filter-button" type="button">Додатки</button></li>
+          <li class="item"><button class="filter-button" type="button">Дизайн</button></li>
+          <li class="item">
             <button class="filter-button" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="progect">
+        <ul class="progects">
           <li class="progect-item">
             <a href="" class="progect-link">
               <img
@@ -63,6 +67,7 @@
               <p class="progect-text">Веб-сайт</p></a
             >
           </li>
+         
           <li class="progect-item">
             <a href="" class="progect-link">
               <img
@@ -75,6 +80,7 @@
               <p class="progect-text">Дизайн</p></a
             >
           </li>
+  
           <li class="progect-item">
             <a href="" class="progect-link">
               <img
@@ -87,6 +93,7 @@
               <p class="progect-text">Додаток</p></a
             >
           </li>
+          
           <li class="progect-item">
             <a href="" class="progect-link">
               <img
@@ -99,6 +106,7 @@
               <p class="progect-text">Маркетинг</p></a
             >
           </li>
+        
           <li class="progect-item">
             <a href="" class="progect-link">
               <img
@@ -111,6 +119,7 @@
               <p class="progect-text">Додаток</p></a
             >
           </li>
+         
           <li class="progect-item">
             <a href="" class="progect-link">
               <img
@@ -123,6 +132,7 @@
               <p class="progect-text">Додаток</p></a
             >
           </li>
+         
           <li class="progect-item">
             <a href="" class="progect-link">
               <img
@@ -135,6 +145,7 @@
               <p class="progect-text">Дизайн</p>
             </a>
           </li>
+       
           <li class="progect-item">
             <a href="" class="progect-link">
               <img
@@ -147,9 +158,10 @@
               <p class="progect-text">Маркетинг</p></a
             >
           </li>
+        
           <li class="progect-item">
             <a href="" class="progect-link">
-              <img
+              <img class=""
                 src="./img/img_12.jpg"
                 alt="Компютер"
                 width="370"
@@ -159,11 +171,14 @@
               <p class="progect-text">Додаток</p></a
             >
           </li>
+         
         </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo"
         >Web<span class="logo-footer">Studio</span></a
       >
@@ -182,6 +197,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
