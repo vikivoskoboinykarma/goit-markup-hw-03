@@ -186,6 +186,13 @@ margin-left: 50px;
 /*features*/
 .features{
    display: flex;
+    flex-wrap: wrap;
+     gap: 30px;
+  align-items: center;
+}
+
+.features-item {
+width: calc((100% - 90px) / 4);
 }
 
 .visually-hidden {
@@ -406,7 +413,7 @@ margin-left:8px;
 }
 
 .progect-item{
- width: calc ((100% - 60px) / 3);
+ width: calc((100% - 60px) / 3);
   margin-right: 30px;
  margin-bottom: 30px;
 
